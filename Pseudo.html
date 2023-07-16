@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+            color:peru;
+        }
+        h3:hover{
+            color: tomato;
+            background-color: skyblue;
+        }
+        input:focus{
+            color: blue;
+            /* padding-left: 10px; */
+            outline: 0;
+            border: 1px solid purple;
+        }
+        a:visited{
+            color: pink;
+        }
+        /* li:first-child
+        {
+            color: aquamarine;
+        }
+        li:last-child{
+            color: brown;
+        } */
+        li:nth-child(2n){
+            color:red ;
+        }
+        li:nth-child(2n+1){
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>My heading</h3>
+    <input type="text">
+    <br>
+    <input type="text">
+    <br>
+    <input type="text">
+    <br>
+   <a href="https://www.google.com/" target="_blank" >Google</a>
+   <br>
+   <a href="https://www.baust.edu.bd/" target="_blank">Baust</a>
+   <ul>
+    <li>Alia</li>
+    <li>Dlia</li>
+    <li>Blia</li>
+    <li>Klia</li>
+    <li>Mlia</li>
+    <li>Pliya</li>
+    <li>Jaliay</li>
+   </ul>
+</body>
+</html>
